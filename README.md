@@ -17,7 +17,7 @@ Dentro de la pestaña _Jobs_ presione _+Crear_ tal como puede observar en la im�
 
 Para la configuración es necesario que especifique el nombre del trabajo de respaldo, la descripción y la configuración de la política de retención. La política de retención define cuántos puntos de restauración se mantienen en el repositorio de respaldo y se pueden usar para la restauración de datos.
 
-<img width="604" alt="CD-1" src="https://user-images.githubusercontent.com/60628267/93233042-3b1dd580-f740-11ea-98ba-d8c25e7538a8.PNG">
+![2](https://user-images.githubusercontent.com/60628267/93346924-1f770580-f7fa-11ea-8707-34d979af9c12.gif)
 
 Una vez el paso anterior, haga clic en _Next_ y agregue una VM y/o una vApp a la que desea procesar el Backup.
 
