@@ -4,7 +4,7 @@
 
 
 ### 2. IBM Cloud Backup con Veeam Self-Service Portal
-IBM Cloud VMware Solutions cuenta con el servicio de Veeam Self-Service Backup, esta herramienta tiene como principal ventaja es que no es necesario instalarlo en la maquina local sino que ya viene incluida dentro del servicio suministrado por IBM. Dentro de otras ventajas, se tiene que este portal ayuda a los usuarios a realizar operaciones de respaldo y restauración tanto de máquinas virtuales como de vApps. En la siguiente imágen podrá observar como acceder a este servicio.
+IBM Cloud VMware Solutions cuenta con el servicio de Veeam Self-Service Backup, esta herramienta tiene como principal ventaja que no es necesario instalarse en la máquina local puesto que ya viene incluida dentro del servicio suministrado por IBM. Dentro de otras ventajas, se tiene que este portal ayuda a los usuarios a realizar operaciones de respaldo y restauración tanto de máquinas virtuales como de vApps. En la siguiente imágen podrá observar como acceder a este servicio desde el Cloud Director.
 
 ![CD-3](https://user-images.githubusercontent.com/60628267/93234256-ae741700-f741-11ea-8fd4-2611f1c9575e.PNG)
 
@@ -25,10 +25,22 @@ En el paso _Notificaciones por correo electrónico_, es necesario habilitarlas y
 
 ![4](https://user-images.githubusercontent.com/60628267/93355123-556cb780-f803-11ea-9c2f-7856246468c7.gif)
 
-Una vez creado el trabajo de respaldo, se deben iniciarlo por primera vez, seleccionandolo y haciendo clic en el botón _Start_.
+Una vez creado el trabajo de respaldo, se debe iniciarlo por primera vez, seleccionandolo y haciendo clic en el botón _Start_.
 
 ![5](https://user-images.githubusercontent.com/60628267/93358813-8e0e9000-f807-11ea-977d-beb78212ed47.gif)
 
+De igual manera en el panel encontrará los botones de _Stop_ y _Retry_ en caso de que se requieran.
+Una vez terminado el proceso verá como cambia el status de _Working_ a _Success_.
 
+Si requiere restaurar el Backup de la VM o de la vAapp que creó, siga tal como se muestra a continuación:
+
+![6](https://user-images.githubusercontent.com/60628267/93360787-b39c9900-f809-11ea-9656-cc4a2c8b323e.gif)
+
+Aquí se habilitó la opción de que al finalizar la restauración de la VM se encienda, esto por temas de practicidad.
+Para comprobar que satisfactoriamente se realizó el Backup de la VM, dirijase a _History_ en donde encontrará un recuento detallado paso a paso de este.
+
+![7](https://user-images.githubusercontent.com/60628267/93361703-c6fc3400-f80a-11ea-9f99-37f540fd9d35.gif)
+
+De igual manera, en el Cloud Director, volverá a ver su VM o vApp con el Backup que se hizo, en caso de que ésta halla sido suprimida. Con esta opción volverá a estar nuevamente en su dashboard.
 
 
