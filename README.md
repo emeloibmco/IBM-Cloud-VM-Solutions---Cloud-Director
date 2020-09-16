@@ -30,8 +30,13 @@ Una vez creado el trabajo de respaldo, se debe iniciarlo por primera vez, selecc
 ![5](https://user-images.githubusercontent.com/60628267/93358813-8e0e9000-f807-11ea-977d-beb78212ed47.gif)
 
 De igual manera en el panel encontrará los botones de _Stop_ y _Retry_ en caso de que se requieran.
-Una vez terminado el proceso verá como cambia el status de _Working_ a _Success_.
+Una vez terminado el proceso verá como cambia el status de _Working_ a _Success_. Adicional a lo anterior, será notificado al correo electrónico que suministró los detalles del Backup y su estado.
 
+<img width="959" alt="Captura" src="https://user-images.githubusercontent.com/60628267/93362780-0a0ad700-f80c-11ea-8e6d-41ceb52a968a.PNG">
+
+
+
+#### Restore VM/vApp
 Si requiere restaurar el Backup de la VM o de la vAapp que creó, siga tal como se muestra a continuación:
 
 ![6](https://user-images.githubusercontent.com/60628267/93360787-b39c9900-f809-11ea-9656-cc4a2c8b323e.gif)
