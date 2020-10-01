@@ -1,9 +1,10 @@
-# IBM-Cloud-VM-Solutions---Cloud-Director
+# IBM Cloud VM Solutions Cloud-Director & Veeam Backup Portal
 
 
 
 
-### 2. IBM Cloud Backup con Veeam Self-Service Portal
+
+### IBM Cloud Backup con Veeam Self-Service Portal
 IBM Cloud VMware Solutions cuenta con el servicio de Veeam Self-Service Backup, esta herramienta tiene como principal ventaja que no es necesario instalarse en la máquina local puesto que ya viene incluida dentro del servicio suministrado por IBM. Dentro de otras ventajas, se tiene que este portal ayuda a los usuarios a realizar operaciones de respaldo y restauración tanto de máquinas virtuales como de vApps. En la siguiente imágen podrá observar como acceder a este servicio desde el Cloud Director.
 
 ![CD-3](https://user-images.githubusercontent.com/60628267/93234256-ae741700-f741-11ea-8fd4-2611f1c9575e.PNG)
